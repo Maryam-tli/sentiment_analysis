@@ -19,7 +19,8 @@ Clone this repository:
 git clone https://github.com/Maryam-tli/sentiment_analysis.git
 Navigate to the project directory:
 
-cd your-repository-name
+cd sentiment_analysis
+
 Install the required dependencies using pip:
 
 pip install textblob
