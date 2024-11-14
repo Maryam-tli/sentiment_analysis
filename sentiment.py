@@ -33,3 +33,8 @@ def run_bot():
         user_input: str = input('you: ')
         mood: Mood = get_mood(user_input, sensitivity=0.3)
         print(f'Bot : {mood.emoji} ({mood.sentiment})')
+
+
+# Entry point to start the bot
+if __name__ == '__main__':
+    run_bot()  # Start the bot when the script is executed
